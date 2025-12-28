@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/alnajah/static/css/main.0c00dd4d.css",
+    "main.js": "/alnajah/static/js/main.aa19b06d.js",
+    "static/js/453.2d822315.chunk.js": "/alnajah/static/js/453.2d822315.chunk.js",
+    "static/media/bg-pattern.png": "/alnajah/static/media/bg-pattern.aa854d3c51b8b1b52063.png",
+    "static/media/hero-main.png": "/alnajah/static/media/hero-main.53ab4193232cada50b63.png",
+    "static/media/hero-machine.png": "/alnajah/static/media/hero-machine.971e3ac7b558bce5c8bc.png",
+    "static/media/logo.png": "/alnajah/static/media/logo.5b9e1648ab3432b70a46.png",
+    "static/media/logo.svg": "/alnajah/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/alnajah/index.html",
+    "main.0c00dd4d.css.map": "/alnajah/static/css/main.0c00dd4d.css.map",
+    "main.aa19b06d.js.map": "/alnajah/static/js/main.aa19b06d.js.map",
+    "453.2d822315.chunk.js.map": "/alnajah/static/js/453.2d822315.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c00dd4d.css",
+    "static/js/main.aa19b06d.js"
+  ]
+}
