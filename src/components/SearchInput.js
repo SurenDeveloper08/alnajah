@@ -10,13 +10,13 @@ const SearchInput = () => {
   };
 
   return (
-    <div className="relative w-full">
+    <>
       <input
         type="text"
         placeholder="Search..."
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        className="w-full border rounded-full pl-6 pr-10 py-3 ring-1 ring-primary outline-none placeholder:text-gray-400 placeholder:font-medium text-base lg:text-lg"
+        className="w-full border-2 border-[#00B4CC] text-gray-600 rounded-full py-1 px-4 focus:outline-none"
       />
 
       {/* Icon: Search if empty, Clear if has text */}
@@ -25,12 +25,12 @@ const SearchInput = () => {
           onClick={handleClear}
           className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600"
         >
-          <CloseIcon fontSize="small" />
+          <CloseIcon className='text-gray-600' fontSize="small" />
         </button>
       ) : (
-        <SearchIcon className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400" fontSize="small" />
+        <SearchIcon className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-600" fontSize="small" />
       )}
-    </div>
+    </>
   );
 };
 
