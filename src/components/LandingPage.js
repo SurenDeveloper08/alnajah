@@ -83,7 +83,7 @@ const LandingPage = () => {
                     </button>
 
                     {/* Line 2: Navigation Menus (Moved to new line) */}
-                    <nav className="flex gap-4 text-gray-500 font-medium text-[12px] lg:text-xs uppercase tracking-widest pt-2 pb-16 w-full lg:w-auto">
+                    <nav className="flex gap-[clamp(1rem,1vw,3rem)] text-gray-500 font-medium text-[13px] lg:text-xs uppercase tracking-widest pt-2 pb-16 w-full lg:w-auto">
                         {['Home', 'Services', 'About Us', 'Gallery', 'Contact Us', 'More'].map(link => (
                             <a key={link} href="#" className="hover:text-[#00B4CC] transition-colors whitespace-nowrap">
                                 {link}

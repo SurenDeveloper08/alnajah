@@ -15,33 +15,33 @@ const Header = () => {
       <div className="w-full px-4 sm:px-6 lg:px-12 xl:px-16">
 
         {/* DESKTOP HEADER ROW */}
-       <div className="hidden lg:grid items-center py-3 lg:py-4"
-     style={{ gridTemplateColumns: "20% 30% 20% 30%" }}>
+        <div className="hidden lg:grid items-center py-3 lg:py-4"
+          style={{ gridTemplateColumns: "20% 30% 20% 30%" }}>
 
-  {/* Logo */}
-  <div className="flex items-center">
-    <img src={logo} alt="AL NAJAH" className="h-14 xl:h-16 object-contain" />
-  </div>
+          {/* Logo */}
+          <div className="flex items-center">
+            <img src={logo} alt="AL NAJAH" className="h-14 xl:h-16 object-contain" />
+          </div>
 
-  {/* Search Input */}
-  <div className="flex items-center">
-    <SearchInput/>
-  </div>
+          {/* Search Input */}
+          <div className="flex items-center">
+            <SearchInput />
+          </div>
 
-  {/* Empty Column */}
-  <div></div>
+          {/* Empty Column */}
+          <div></div>
 
-  {/* Contacts */}
-  <div className="flex justify-end gap-8 text-gray-600 font-medium text-sm lg:text-base xl:text-lg whitespace-nowrap">
-    <span className="flex items-center gap-2">
-      <PhoneIcon fontSize="small" /> +971 6 7486990
-    </span>
-    <span className="flex items-center gap-2">
-      <EmailIcon fontSize="small" /> alnajahpp@gmail.com
-    </span>
-  </div>
+          {/* Contacts */}
+          <div className="flex justify-end gap-8 text-gray-600 font-medium text-sm lg:text-base xl:text-lg whitespace-nowrap">
+            <span className="flex items-center gap-2">
+              <PhoneIcon fontSize="small" /> +971 6 7486990
+            </span>
+            <span className="flex items-center gap-2">
+              <EmailIcon fontSize="small" /> alnajahpp@gmail.com
+            </span>
+          </div>
 
-</div>
+        </div>
 
 
         {/* MOBILE HEADER ROW */}
@@ -66,40 +66,40 @@ const Header = () => {
 
             {/* Desktop Menu */}
             <ul className="flex gap-10 text-lg xl:text-xl text-gray-700">
-  {menuItems.map((item) => (
-    <li
-      key={item}
-      className="relative group cursor-pointer"
-    >
-      {/* Text */}
-      <span
-        className={`
+              {menuItems.map((item) => (
+                <li
+                  key={item}
+                  className="relative group cursor-pointer"
+                >
+                  {/* Text */}
+                  <span
+                    className={`
           inline-block
           font-medium
           transition-all duration-300 ease-out
           group-hover:text-primary
           group-hover:scale-[1.06]
         `}
-        style={{
-          textShadow: "0 0 0.6px currentColor" // fake weight
-        }}
-      >
-        {item}
-      </span>
+                    style={{
+                      textShadow: "0 0 0.6px currentColor" // fake weight
+                    }}
+                  >
+                    {item}
+                  </span>
 
-      {/* Underline */}
-      <span
-        className="
+                  {/* Underline */}
+                  <span
+                    className="
           absolute left-0 -bottom-1
           h-[2px] w-0
           bg-primary
           transition-all duration-300 ease-out
           group-hover:w-full
         "
-      />
-    </li>
-  ))}
-</ul>
+                  />
+                </li>
+              ))}
+            </ul>
 
           </div>
 
